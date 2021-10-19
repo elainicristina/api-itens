@@ -1,0 +1,27 @@
+{
+  "name": "rodada-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node ./src/index.ts\"",
+    "build": "tsc",
+    "start": "tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.7",
+    "cors": "^2.8.5",
+    "dev": "^0.1.3",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.13",
+    "ts-node-dev": "^1.1.8"
+  }
+}
