@@ -1,2 +1,2 @@
-# api-itens
-Treinamento em TS, Express. API de itens.
+# Api-itens
+Treinamento em Typescript, express, node e sql.
